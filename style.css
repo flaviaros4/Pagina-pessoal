@@ -1,66 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-.main{
- font-family: "Amatic SC", sans-serif;
- background-color: rgb(51, 11, 75);
- opacity: 0.7;
- height: 925px;
- width: 500px;
- border-radius: 5%;
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url(./img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-#title{
-    font-size: 50px;
+header {
+    background-color: #d4c0d9;
+    padding: 20px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #6b3086;
+}
+
+#perfil {
+    border-radius: 50%;
+    border: 10px solid #d4c0d9;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
     text-align: center;
+    position: relative;
+    left: 100px;
+    top: 100px;
+
 }
 
-body{
-    background-color: rgb(203, 183, 223);
-    height: 1000px;
-}
-
-.bio{
-    background-color: rgb(51, 11, 75);
-     opacity: 0.7;
- height: 450px;
- width: 600px;
- border-radius: 5%;
- position: relative;
-bottom: 925px; left: 530px;
-}
-
-.job{
-    background-color: rgb(51, 11, 75);
-     opacity: 0.7;
-     height: 450px;
- width: 600px;
- border-radius: 5%;
- position: relative;
-bottom: 1380px; left: 900px;
-}
-
-.contato{
-    background-color: rgb(51, 11, 75);
-     opacity: 0.7;
-     height: 450px;
- width: 600px;
- border-radius: 5%;
- position: relative;
-bottom: 2795px; left: 1850px;
-}
-
-.skills{
-    background-color: rgb(51, 11, 75);
-     opacity: 0.7;
-     height: 450px;
- width: 600px;
- border-radius: 5%;
- position: relative;
-bottom: 2760px; left: 1850px;
-}
-
-
-.img{
-    max-width: 2000px;
-    height: 500px;
+#info {
+    text-align: center;
+    color: #d4c0d9;
 }
