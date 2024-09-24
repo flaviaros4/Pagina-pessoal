@@ -5,23 +5,34 @@ body {
     background-image: url(./img/fundo.jpg);
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 header {
     background-color: #d4c0d9;
-    padding: 20px;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    left: 0;
+
 }
 
 .barra {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .links {
     list-style-type: none;
+    font-size: 20px;
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    text-align: center;
+    word-spacing: -5px;
 }
 
 .links a {
@@ -34,20 +45,89 @@ header {
     color: #6b3086;
 }
 
+.home {
+    display: flex;
+    align-items: center;
+    height: 639px;
+}
+
 #perfil {
     border-radius: 50%;
     border: 10px solid #d4c0d9;
     object-fit: cover;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     position: relative;
-    left: 100px;
-    top: 100px;
+    left: 150px;
+    top: 30px;
 
 }
 
+
 #info {
     text-align: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: #ffffff;
+    flex: 1;
+    justify-content: right;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+#info h1 {
+    font-size: 35px;
+    word-spacing: -10px;
+}
+
+#info span {
+    color: #e7b9e7;
+}
+
+#info h2 {
+    font-size: 25px;
+}
+
+#info p {
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+#btn1 {
+    border: 5px solid #e7b9e7;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#btn2 {
+    background-color: #d4c0d9;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(42, 11, 54);
+    text-decoration: none;
+}
+
+.sobre {
+    width: 600px;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+#sobremim h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#sobremim p {
     color: #d4c0d9;
+    font-weight: bold;
 }
