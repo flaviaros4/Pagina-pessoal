@@ -217,7 +217,7 @@ border: 10px solid rgb(121, 31, 133);
 #trabalho{
     color: white;
     background-color: #5b2480;
-    width: 60vh;
+    width: 50vh;
     border: 20px solid purple;
 }
 
@@ -266,7 +266,7 @@ text-align: center;
     display: flex;
     gap: 5vw;
     align-items: center;
-    margin-left: 75vh;
+    margin-left: 70vh;
 }
 
 #links2 img {
