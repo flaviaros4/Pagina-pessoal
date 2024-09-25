@@ -113,12 +113,12 @@ header {
 
 .sobre {
     height: auto;
-    padding: 30px;
-    margin-left: 200px;
+    padding: 4em;
+    padding-left: 10em;
     text-align: center;
     display: flex;
-    max-width: 1500px;
-    gap: 300px;
+    max-width: 180vh;
+    gap: 15vw;
     margin: auto;
 
 }
@@ -126,37 +126,37 @@ header {
 .sobremim h1 {
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3vw;
     text-align: center;
 }
 
 .sobremim p {
     color: #d4c0d9;
     font-weight: bold;
-    padding: 5px;
-    font-size: 20px;
+    padding: 1vh;
+    font-size: 1vw;
 }
 
 .fatos{
     text-transform: uppercase;
-   width: 4000px; 
+   width: 400vh; 
 }
 
 .fatos img{
-    width: 90px;
+    width: 10vh;
     height: auto;
     display: flex;
-    padding: 10px;
-    margin-right: 5px;
+    padding: 1vh;
+    margin-right: 3vh;
     
 }
 
 .fatos h1{
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3vw;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 5vh;
 
 }
 
@@ -165,62 +165,127 @@ header {
     background-color: #dfb8df;
     text-align: center;
  align-items: center;
-    padding: 20px;
+    padding: 1em;
     display: flex;
 border-radius: 20px;
-gap: 15px;
-margin-bottom: 30px;
+gap: 1vw;
+margin-bottom: 3vh;
 border: 10px solid rgb(121, 31, 133);
 }
 
-.perfil{
-
-}
 
 .descricao {
  display: flex;
     text-align: center;
-    margin-left: 300px;
-    padding: 20px;
-    gap: 100px;
+    margin-left: 35vh;
+    padding: 1em;
+    gap: 8vw;
     font-weight: bold;
+    align-items: center;
+
 }
+
+.descricao p {
+    font-size: 1vw;
+    padding: 0.5em;
+    margin-top: 5vh;
+    background-color: rgba(223, 150, 223, 0.103);
+    padding: 1.5em;
+   }
 
 .perfil h1{
     color: #ffffff;
-    font-size: 30px;
+    font-size: 3vw;
     text-align: center;
+}
+
+.descricao span{
+   color: #bd79d6;
+    font-size: 6vw;
+    padding: 0.3em;
+    
 }
 
 #educacao{
     color: white;
     background-color: #5b2480;
-    width: 600px;
+    width: 50vh;   
+     border: 20px solid purple;
+
 }
 
 #trabalho{
     color: white;
     background-color: #5b2480;
-    width: 400px;
+    width: 60vh;
+    border: 20px solid purple;
 }
 
-.descricao span{
-   color: #bd79d6;
-    font-size: 100px;
-    padding: 20px;
+
+#imagens{
+margin-left: 50vh;
+display: flex;
+color: white; 
+gap: 20px;
+text-align: center;
 }
 
-@media (max-width: 768px) {
-    .links {
-        flex-direction: column; /* Coloca os links em coluna */
-        align-items: center;
-    }
-
-    .home {
-        flex-direction: column; /* Ajusta a direção */
-    }
-
-    .info {
-        margin-left: 0; /* Remove margem em telas menores */
-    }
+.habilidades h1{
+    color: #ffffff;
+    font-size: 3vw;
+    text-align: center;
 }
+
+.habilidades img{
+    color: #ffffff;
+    width: 10vh;
+    height: auto;
+    display: flex;
+    padding: 1vh;  
+}
+
+.habilidades p{
+   background-color: #5b2480; 
+   padding: 1vh;
+   border-radius: 20px;
+   font-size: 1vw;
+   font-weight: bold;
+   color: #e9c4f7;
+   
+}
+
+.redes{
+    color: #ffffff;
+    font-size: 2vw;
+    text-align: center;
+    align-content: center;
+  
+}
+
+#links2 {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    margin-left: 75vh;
+}
+
+#links2 img {
+    width: 15vh;
+
+}
+
+#links2 p{
+color: #deb2e7;
+}
+
+#links2 a:hover{
+    color: #5b2480;
+    
+}
+
+#links2 a:link{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
